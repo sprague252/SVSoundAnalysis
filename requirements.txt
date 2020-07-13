@@ -1,0 +1,6 @@
+svsound
+psutil
+requests
+rawpy
+imageio
+pillow
