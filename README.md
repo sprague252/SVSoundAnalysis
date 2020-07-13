@@ -30,9 +30,8 @@ In order to run these Jupyter notebooks on a local computer, you must have a ver
 4. plotly
 5. svsound - install this with `conda install -c sprague252 svsound` or with `pip install svsound`.
 
-
 ### Run on Azure Notebooks
 
 Azure Notebooks is a cloud service that will run Jupyter notebooks without any need to install software on a local computer. Azure Notebooks is a free preview service that will be ending in September, but anyone with a Microsoft or ECU account can use it until then.
 
-Press the button to import this project onto Azure Notebooks: [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/sprague252/SVImageProcessing) Sign in with Microsoft (or ECU) account. Follow the prompts to import the repository.  Click the run button on the upper right, and then open the notebooks `Sound Analysis-Static Figures.ipynb` and/or `Sound Analysis-interactive Figures.ipynb.
+Press the button to import this project onto Azure Notebooks: [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/sprague252/SVSoundAnalysis) Sign in with a Microsoft (or ECU) account. Follow the prompts to import the repository.  Click the run button on the upper right, and then open the notebooks `Sound Analysis-Static Figures.ipynb` and/or `Sound Analysis-interactive Figures.ipynb`.
