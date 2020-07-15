@@ -1,6 +1,5 @@
+numpy
+scipy
+matplotlib
+plotly
 svsound
-psutil
-requests
-rawpy
-imageio
-pillow
