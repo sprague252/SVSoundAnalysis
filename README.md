@@ -37,3 +37,9 @@ Azure Notebooks is a cloud service that will run Jupyter notebooks without any n
 Press the button to import this project onto Azure Notebooks: [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/sprague252/SVSoundAnalysis) Sign in with a Microsoft (or ECU) account. Follow the prompts to import the repository.  Click the run button on the upper right, and then open the notebooks `Sound Analysis-Static Figures.ipynb` and/or `Sound Analysis-Interactive Figures.ipynb`.
 
 Once you import the project to Azure Notebooks, it will be saved there, and you will not have to import it again (unless you want to start over). Just log on to Azure Notebooks to access your latest files.
+
+### Run on Binder
+
+Binder is a cloud service that allows users to run Jupyter notebooks from Github repositories (no account required). Binder will not save your files after you end your session, so be sure to download all of your results before closing.
+
+Press this button to import this project onto Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sprague252/SVSoundAnalysis/master)
