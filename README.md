@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This repository contains Jupyter notebooks that use *Python* to do basic sound analysis including importing WAV files, ploting waveforms, and computing and plotting power spectra and spectrograms.  There are two example Jupyter notebooks. One uses Matplotlib to produce static images, and the other uses Plotly to produce interactive images. The Matplotlib/static image notebook requires less memory and computer porcessing to produce images. Also, the static images can be readily imported into presentations and papers.  The interactive images require more computer resources to produce and save. They are good for exploring the details of a plot because the user can zoom and pan the plot without re-plotting. Plotly/interactive plots can be exported to Javascript-enabled HTML files that can be opened in most browsers or included in webpages, but exporting Plotly images to static files requires the Plotly-Orca library which is not readily installed on cloud servers like *Azure Notebooks*.
+This repository contains Jupyter notebooks that use *Python* to do basic sound analysis including importing WAV files, ploting waveforms, and computing and plotting power spectra and spectrograms.  There are two example Jupyter notebooks. One uses *Matplotlib* to produce static images, and the other uses *Plotly* to produce interactive images. The *Matplotlib*/static image notebook requires less memory and computer porcessing to produce images. Also, the static images can be readily imported into presentations and papers.  The interactive images require more computer resources to produce and save. They are good for exploring the details of a plot because the user can zoom and pan the plot without re-plotting. *Plotly*/interactive plots can be exported to Javascript-enabled HTML files that can be opened in most browsers or included in webpages.
+
 
 ## Files
 
@@ -22,7 +23,7 @@ This repository contains Jupyter notebooks that use *Python* to do basic sound a
 
 ### Run on local computer
 
-In order to run these Jupyter notebooks on a local computer, you must have a version of Python 3.6 or greater with Jupyter installed (recommendation: Anaconda Python) with these additional packages:
+In order to run these Jupyter notebooks on a local computer, you must have a version of Python 3.6 or greater with Jupyter installed with these additional packages:
 
 1. numpy
 2. scipy
@@ -30,13 +31,16 @@ In order to run these Jupyter notebooks on a local computer, you must have a ver
 4. plotly
 5. svsound - install this with `conda install -c sprague252 svsound` or with `pip install svsound`.
 
-### Run on Azure Notebooks
+Clone this git repository from GitHub with the following command.
+```
+git clone https://github.com/sprague252/SVImageProcessing.git
+```
 
-Azure Notebooks is a cloud service that will run Jupyter notebooks without any need to install software on a local computer. Azure Notebooks is a free preview service that will be ending on October 9, 2020, but anyone with a Microsoft or ECU account can use it until then.
+Once you have everything configured, start Jupyter Notebook or Jupyter Lab and open either of the two notebooks described above. 
 
-Press the button to import this project onto Azure Notebooks: [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/sprague252/SVSoundAnalysis) Sign in with a Microsoft (or ECU) account. Follow the prompts to import the repository.  Click the run button on the upper right, and then open the notebooks `Sound Analysis-Static Figures.ipynb` and/or `Sound Analysis-Interactive Figures.ipynb`.
+### Run on CoCalc
 
-Once you import the project to Azure Notebooks, it will be saved there, and you will not have to import it again (unless you want to start over). Just log on to Azure Notebooks to access your latest files.
+The files should be already installed in your [CoCalc](https://cocalc.com) Summer Ventures project. (Look in Handouts.) If not, you can open a Linux terminal and run the `git` command in the previous section to copy them. Once you have the files, open one of the two notebooks described above in CoCalc. Be sure to set the kernel to `Python 3 (system-wide)` because that contains all of the modules you will need.
 
 ### Run on Binder
 
