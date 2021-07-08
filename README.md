@@ -17,7 +17,7 @@ This repository contains Jupyter notebooks that use *Python* to do basic sound a
 
 * Sound Analysis-Static Figures.ipynb - Jupyter notebook that demonstrates sound analysis using Matplotlib to produce static figures.
 
-* requirements.txt - List of additional packages to install when this project is imported into *Azure Notebooks*. Azure Notebooks reads this file and installs these packages automatically.
+* requirements.txt - List of additional packages to install when this project is imported into *Binder* (see below), which reads this file and installs these packages automatically.
 
 ## Running Code
 
