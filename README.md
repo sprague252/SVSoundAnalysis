@@ -15,7 +15,11 @@ This repository contains Jupyter notebooks that use *Python* to do basic sound a
 
 * Sound Analysis-Interactive Figures.ipynb - Jupyter notebook that demonstrates sound analysis using Plotly to produce interactive figures.
 
+* Sound Analysis-Interactive Figures-colab.ipynb - Jupyter notebook that demonstrates sound analysis using Plotly to produce interactive figures. This version contains the configuration and installation commands necessary to run the notebook on Google Colab.
+
 * Sound Analysis-Static Figures.ipynb - Jupyter notebook that demonstrates sound analysis using Matplotlib to produce static figures.
+
+* Sound Analysis-Static Figures-colab.ipynb - Jupyter notebook that demonstrates sound analysis using Matplotlib to produce static figures. This version contains the configuration and installation commands necessary to run the notebook on Google Colab.
 
 * requirements.txt - List of additional packages to install when this project is imported into *Binder* (see below), which reads this file and installs these packages automatically.
 
@@ -38,9 +42,13 @@ git clone https://github.com/sprague252/SVImageProcessing.git
 
 Once you have everything configured, start Jupyter Notebook or Jupyter Lab and open either of the two notebooks described above. 
 
-### Run on CoCalc
+### Run on Google Colab
 
-The files should be already installed in your [CoCalc](https://cocalc.com) Summer Ventures project. (Look in Handouts.) If not, you can open a Linux terminal and run the `git` command in the previous section to copy them. Once you have the files, open one of the two notebooks described above in CoCalc. Be sure to set the kernel to `Python 3 (system-wide)` because that contains all of the modules you will need.
+The easiest way to run these notebooks is to use [Google Colab](https://colab.research.google.com/), which will use computers in the Google cloud to run the Python code. In order to do this, you must have a Google account with sufficient space on your Google Drive. 
+
+In order to run these files on Colab, open the notebook `ColabSetUp.ipynb` and run the commands in Colab. You can do open the notebook with the following link.
+
+[Open ColabSetUp.ipynb on Google Colab.](https://colab.research.google.com/github/sprague252/SVSoundAnalysis/ColabSetUp.ipynb)
 
 ### Run on Binder
 
