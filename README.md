@@ -48,7 +48,7 @@ The easiest way to run these notebooks is to use [Google Colab](https://colab.re
 
 In order to run these files on Colab, open the notebook `ColabSetUp.ipynb` and run the commands in Colab. You can do open the notebook with the following link.
 
-[Open ColabSetUp.ipynb on Google Colab.](https://colab.research.google.com/github/sprague252/SVSoundAnalysis/ColabSetUp.ipynb)
+[Open ColabSetUp.ipynb on Google Colab.](https://colab.research.google.com/github/sprague252/SVSoundAnalysis/blob/master/ColabSetUp.ipynb)
 
 ### Run on Binder
 
